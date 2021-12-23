@@ -14,13 +14,13 @@
 let emptyArray = []
 let hobbies = ["Gaming", "Brunch", "Kitties", "TTRPGs", "Anime", "More Brunch"]
 let numbers = [5, 7, 8, 17, 69]
-console.log(numbers[1])
 console.log(hobbies[5])
+console.log(numbers[1])
 hobbies.push("Mountain Climbing")
 console.log(hobbies[hobbies.length-1])
 console.log(hobbies)
 hobbies.pop()
 hobbies.pop()
-console.log(hobbies)
+console.log(hobbies.length)
 hobbies = []
 console.log(hobbies)
